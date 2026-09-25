@@ -196,7 +196,7 @@ Delay Increase (%) =
 ├── docs/
 ├── vlsi_rc_toolchain/
 └── README.md
-
+```
 ---
 
 ## Tool Installation
