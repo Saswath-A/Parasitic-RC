@@ -1,0 +1,8 @@
+*.raw
+*.log
+*.out
+*.ps
+*.swp
+*~
+.xschem/
+vlsi_rc_toolchain_v2.zip
