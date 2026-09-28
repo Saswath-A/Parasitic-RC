@@ -1,0 +1,14 @@
+PRE-LAYOUT TIMING RESULTS
+=========================
+
+Circuit: Domino AND
+Technology: SKY130A
+Analysis: Transient simulation
+
+CLK -> X delay (50% to 50%): 24.0347 ns
+CLK -> OUT propagation delay (50% to 50%): 24.0503 ns
+OUT rise time (10% to 90%): 17.50 ps
+CLK rise time (10% to 90%): 40 ps
+OUT fall time: Not observed in the simulated transient interval
+
+Primary pre-layout delay (tpd_pre): 24.0503 ns

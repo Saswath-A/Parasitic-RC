@@ -42,12 +42,12 @@ W=2
 L=0.15
 nf=1
 mult=1
-ad="expr('int((@nf + 1)/2) * @W / @nf * 0.29')"
-pd="expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)')"
-as="expr('int((@nf + 2)/2) * @W / @nf * 0.29')"
-ps="expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')"
-nrd="expr('0.29 / @W ')" nrs="expr('0.29 / @W ')"
 sa=0 sb=0 sd=0
+ad=0.58
+pd=4.58
+as=0.58
+ps=4.58
+nrd=0.145 nrs=0.145
 model=pfet_01v8
 spiceprefix=X
 }
@@ -56,12 +56,12 @@ W=1
 L=0.15
 nf=1 
 mult=1
-ad="expr('int((@nf + 1)/2) * @W / @nf * 0.29')"
-pd="expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)')"
-as="expr('int((@nf + 2)/2) * @W / @nf * 0.29')"
-ps="expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')"
-nrd="expr('0.29 / @W ')" nrs="expr('0.29 / @W ')"
 sa=0 sb=0 sd=0
+ad=0.29
+pd=2.58
+as=0.29
+ps=2.58
+nrd=0.29 nrs=0.29
 model=nfet_01v8
 spiceprefix=X
 }
@@ -70,7 +70,7 @@ C {vsource.sym} -550 -110 0 0 {name=V2 value="PULSE(0 1.8 4n 50p 50p 4n 8n)" sav
 C {gnd.sym} 360 40 0 0 {name=l2 lab=0}
 C {lab_pin.sym} 460 -60 0 0 {name=p1 sig_type=std_logic lab=OUT
 }
-C {code_shown.sym} -560 330 0 0 {name=MODEL only_toplevel=false value=".lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt"}
+C {code_shown.sym} -560 330 0 0 {name=MODEL only_toplevel=false value=".lib /home/tharanees/.ciel/sky130A/libs.tech/ngspice/sky130.lib.spice tt"}
 C {code_shown.sym} -570 -20 0 0 {name=NGSPICE only_toplevel=false value=".control
 save all
 tran 5p 32n
@@ -101,12 +101,12 @@ W=2
 L=0.15
 nf=1
 mult=1
-ad="expr('int((@nf + 1)/2) * @W / @nf * 0.29')"
-pd="expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)')"
-as="expr('int((@nf + 2)/2) * @W / @nf * 0.29')"
-ps="expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')"
-nrd="expr('0.29 / @W ')" nrs="expr('0.29 / @W ')"
 sa=0 sb=0 sd=0
+ad=0.58
+pd=4.58
+as=0.58
+ps=4.58
+nrd=0.145 nrs=0.145
 model=pfet_01v8
 spiceprefix=X
 }
@@ -115,12 +115,12 @@ W=2
 L=0.15
 nf=1 
 mult=1
-ad="expr('int((@nf + 1)/2) * @W / @nf * 0.29')"
-pd="expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)')"
-as="expr('int((@nf + 2)/2) * @W / @nf * 0.29')"
-ps="expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')"
-nrd="expr('0.29 / @W ')" nrs="expr('0.29 / @W ')"
 sa=0 sb=0 sd=0
+ad=0.58
+pd=4.58
+as=0.58
+ps=4.58
+nrd=0.145 nrs=0.145
 model=nfet_01v8
 spiceprefix=X
 }
@@ -129,12 +129,12 @@ W=2
 L=0.15
 nf=1 
 mult=1
-ad="expr('int((@nf + 1)/2) * @W / @nf * 0.29')"
-pd="expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)')"
-as="expr('int((@nf + 2)/2) * @W / @nf * 0.29')"
-ps="expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')"
-nrd="expr('0.29 / @W ')" nrs="expr('0.29 / @W ')"
 sa=0 sb=0 sd=0
+ad=0.58
+pd=4.58
+as=0.58
+ps=4.58
+nrd=0.145 nrs=0.145
 model=nfet_01v8
 spiceprefix=X
 }
@@ -143,12 +143,12 @@ W=2
 L=0.15
 nf=1 
 mult=1
-ad="expr('int((@nf + 1)/2) * @W / @nf * 0.29')"
-pd="expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)')"
-as="expr('int((@nf + 2)/2) * @W / @nf * 0.29')"
-ps="expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')"
-nrd="expr('0.29 / @W ')" nrs="expr('0.29 / @W ')"
 sa=0 sb=0 sd=0
+ad=0.58
+pd=4.58
+as=0.58
+ps=4.58
+nrd=0.145 nrs=0.145
 model=nfet_01v8
 spiceprefix=X
 }
