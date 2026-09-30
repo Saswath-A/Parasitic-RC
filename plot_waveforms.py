@@ -53,7 +53,7 @@ plt.axvline(t_out, linestyle="--", linewidth=1)
 
 # Delay annotation
 plt.annotate(
-    "CLK → OUT = 24.0503 ns",
+    "CLK → OUT = 50.2507 ps",
     xy=((t_clk + t_out) / 2, 0.9),
     xytext=(12, 1.3),
     arrowprops=dict(arrowstyle="<->"),
