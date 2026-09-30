@@ -1,0 +1,21 @@
+POST-LAYOUT TIMING RESULTS
+==========================
+
+Circuit: Domino AND
+Technology: SKY130A
+Analysis: Post-layout transient simulation with extracted RC parasitics
+
+CLK 50% crossing time: 28.0250 ns
+X 50% falling crossing time: 28.0671 ns
+OUT 50% rising crossing time: 28.0879 ns
+
+CLK -> X delay (50% to 50%): 42.0712 ps
+CLK -> OUT propagation delay (50% to 50%): 62.8964 ps
+
+X fall time (90% to 10%): 45.7135 ps
+OUT rise time (10% to 90%): 23.5545 ps
+CLK rise time (10% to 90%): 40.0000 ps
+
+OUT fall time: Not observed in the simulated transient interval
+
+Primary post-layout delay (tpd_post): 62.8964 ps

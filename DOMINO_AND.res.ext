@@ -1,0 +1,10 @@
+scale 1000 1 500000
+rnode "GND.t1" 0 0 336 200 0
+rnode "GND.t0" 0 0 440 -227 0
+rnode "GND" 0 0 440 -227 0
+resist "GND" "GND.t0" 9.3
+resist "GND.t0" "GND.t1" 221.295
+device msubckt sky130_fd_pr__nfet_01v8 66 0 67 1  "GND.t0" "A" 60 0 "X" 400 26400,932 "a_96_0#" 400 18000,490
+device msubckt sky130_fd_pr__nfet_01v8 186 0 187 1  "GND.t0" "B" 60 0 "a_96_0#" 400 18000,490 "a_216_0#" 400 18000,490
+device msubckt sky130_fd_pr__nfet_01v8 306 0 307 1  "GND.t0" "CLK" 60 0 "a_216_0#" 400 18000,490 "GND.t1" 400 26400,932
+device msubckt sky130_fd_pr__nfet_01v8 616 0 617 1  "GND.t0" "X" 60 0 "GND.t0" 200 13200,532 "OUT" 200 13200,532

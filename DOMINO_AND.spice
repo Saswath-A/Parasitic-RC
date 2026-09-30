@@ -1,0 +1,37 @@
+* SPICE3 file created from DOMINO_AND.ext - technology: sky130A
+
+X0 a_216_0# B a_96_0# 0.t0 sky130_fd_pr__nfet_01v8 ad=0.45 pd=2.45 as=0.45 ps=2.45 w=2 l=0.15
+X1 OUT X 0.t0 0.t0 sky130_fd_pr__nfet_01v8 ad=0.33 pd=2.66 as=0.33 ps=2.66 w=1 l=0.15
+X2 a_96_0# A X 0.t0 sky130_fd_pr__nfet_01v8 ad=0.45 pd=2.45 as=0.66 ps=4.66 w=2 l=0.15
+X3 OUT X VDD VDD sky130_fd_pr__pfet_01v8 ad=0.66 pd=4.66 as=0.66 ps=4.66 w=2 l=0.15
+X4 0.t1 CLK a_216_0# 0.t0 sky130_fd_pr__nfet_01v8 ad=0.66 pd=4.66 as=0.45 ps=2.45 w=2 l=0.15
+X5 VDD CLK X VDD sky130_fd_pr__pfet_01v8 ad=0.66 pd=4.66 as=0.66 ps=4.66 w=2 l=0.15
+C0 VDD CLK 0.0528f
+C1 VDD OUT 0.14325f
+C2 a_216_0# X 0.01533f
+C3 X CLK 0.07603f
+C4 OUT A 0
+C5 OUT X 0.09259f
+C6 a_216_0# B 0.00331f
+C7 B CLK 0.04351f
+C8 OUT B 0
+C9 VDD X 0.20227f
+C10 VDD B 0.0056f
+C11 A X 0.02577f
+C12 A B 0.00462f
+C13 B X 0.03272f
+C14 A a_96_0# 0.00331f
+C15 a_96_0# X 0.02673f
+C16 B a_96_0# 0.00331f
+C17 a_216_0# CLK 0.00331f
+C18 OUT CLK 0.00432f
+R0 0.t0 0.t1 221.296
+R1 0 0.t0 9.3005
+C19 a_216_0# 0 0.02231f
+C20 a_96_0# 0 0.01201f
+C21 A 0 0.23922f
+C22 B 0 0.16825f
+C23 OUT 0 0.29669f
+C24 X 0 0.80717f
+C25 CLK 0 0.23437f
+C26 VDD 0 1.18697f
